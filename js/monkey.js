@@ -3,6 +3,7 @@
 // @version      0.1
 // @description  Youtube Tools script injection
 // @author       Drew Anderson
+// @icon         https://s.ytimg.com/yts/img/favicon_32-vflOogEID.png
 // @homepageURL  https://www.drewanderson.org/youtube-playlists/
 // @downloadURL  https://www.drewanderson.org/youtube-playlists/js/monkey.js
 // @supportURL   https://github.com/drewandersonnz/youtube-playlists/
