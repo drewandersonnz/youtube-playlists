@@ -10,7 +10,7 @@ function getVideoRemoveButton() {
 
 async function playlistVideosRemove(count, delay = 0.4) {
     for (var i = 0; i < count; i++) {
-        console.log("removing video " + i + " of " + count);
+        console.log("removing video " + (i + 1) + " of " + count);
 
         var removeButton = getVideoRemoveButton();
         if (removeButton) {
