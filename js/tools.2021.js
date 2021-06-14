@@ -9,13 +9,17 @@ function getAllButtons() {
     return list.querySelectorAll('ytd-menu-renderer > yt-icon-button.dropdown-trigger > button[aria-label]');
 }
 
+function getOneButton() {
+    return getAllButtons()[0];
+}
+
 async function playlistVideosRemove(count) {
 
     for (var i = 0; i < count; i++) {
         console.log("removing video " + (i + 1) + " of " + count);
 
-        var items = getAllButtons()
-        items[0].click();
+        var item = getOneButton()
+        item.click();
 
         out = setTimeout(function () {
             var menu = document.querySelector('tp-yt-paper-listbox.style-scope.ytd-menu-popup-renderer').lastElementChild
@@ -32,5 +36,3 @@ async function playlistVideosRemove(count) {
     }
     console.log("done");
 }
-
-deletePlaylistItems(5);
