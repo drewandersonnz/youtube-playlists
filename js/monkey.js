@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Youtube Tools
-// @version      0.1
+// @version      0.202106
 // @description  Youtube Tools script injection
 // @author       Drew Anderson
 // @icon         https://s.ytimg.com/yts/img/favicon_32-vflOogEID.png
