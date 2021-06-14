@@ -12,8 +12,8 @@
 // @include      /https?:\/\/www\.youtube\.com/watch.*/
 // ==/UserScript==
 
-var src = "https://www.drewanderson.org/youtube-playlists/js/tools.js";
-//src = "http://127.0.0.1:8080/js/tools.js";
+var src = "https://www.drewanderson.org/youtube-playlists/js/tools.2021.js";
+//src = "http://127.0.0.1:8080/js/tools.2021.js";
 
 var script   = document.createElement("script");
 script.type  = "text/javascript";
