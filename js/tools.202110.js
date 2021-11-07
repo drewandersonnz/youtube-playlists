@@ -5,7 +5,7 @@ function sleep(ms) {
 }
 
 function getAllButtons() {
-    var list = document.querySelectorAll('#items.playlist-items')[0];
+    var list = document.querySelectorAll('#items.playlist-items')[1];
     return list.querySelectorAll('ytd-menu-renderer > yt-icon-button.dropdown-trigger > button[aria-label]');
 }
 

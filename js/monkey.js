@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Youtube Tools
-// @version      0.202106.1
+// @version      0.202110.1
 // @description  Youtube Tools script injection
 // @author       Drew Anderson
 // @icon         https://s.ytimg.com/yts/img/favicon_32-vflOogEID.png
@@ -12,8 +12,8 @@
 // @include      /https?:\/\/www\.youtube\.com/watch.*/
 // ==/UserScript==
 
-var src = "https://www.drewanderson.org/youtube-playlists/js/tools.2021.js";
-//src = "http://127.0.0.1:8080/js/tools.2021.js";
+var src = "https://www.drewanderson.org/youtube-playlists/js/tools.202110.js";
+//src = "http://127.0.0.1:8080/js/tools.202110.js";
 
 var script   = document.createElement("script");
 script.type  = "text/javascript";
